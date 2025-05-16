@@ -1,41 +1,108 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Aangan</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f8f4ef;
-            text-align: center;
-            padding: 50px 20px;
-        }
-        h1 {
-            color: #8b5e3c;
-            font-size: 2.5em;
-        }
-        .btn {
-            display: inline-block;
-            margin: 20px;
-            padding: 15px 30px;
-            font-size: 1.2em;
-            color: white;
-            background-color: #8b5e3c;
-            border: none;
-            border-radius: 10px;
-            text-decoration: none;
-            transition: background-color 0.3s ease;
-        }
-        .btn:hover {
-            background-color: #a06b47;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AANGAN - Make Your Home Special</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1580587771525-78b9dba3b914') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #d4af37;
+    }
+    .links a {
+      display: inline-block;
+      margin: 10px 10px 0 0;
+      padding: 10px 20px;
+      border-radius: 25px;
+      background: #d4af37;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-    <h1>Welcome to The Aangan</h1>
-    <a href="https://www.instagram.com/theaanganofficial" class="btn" target="_blank">Instagram</a>
-    <a href="https://wa.me/917877406060" class="btn" target="_blank">WhatsApp</a>
+  <header>
+    <h1>AANGAN</h1>
+    <p>Make your home special</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Our Location</h2>
+      <p>Gandhi Chowk, Near BOB Bank, Jhunjhunu 333001</p>
+      <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=75.395%2C28.130%2C75.405%2C28.135&layer=mapnik" width="100%" height="300" style="border:1px solid #ccc;"></iframe>
+    </div>
+
+    <div class="card">
+      <h2>Connect With Us</h2>
+      <div class="links">
+        <a href="https://instagram.com/theaanganofficial" target="_blank">Instagram</a>
+        <a href="https://facebook.com/aanganofficial" target="_blank">Facebook</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://wa.me/91XXXXXXXXXX" target="_blank">WhatsApp</a>
+        <a href="mailto:aangan@email.com" target="_blank">Email</a>
+        <a href="https://youtube.com" target="_blank">YouTube</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Products & Services</h2>
+      <ul>
+        <li>Luxurious Home Décor Items</li>
+        <li>Customizable Furniture</li>
+        <li>Wall Art & Sculptures</li>
+        <li>Ambient Lighting</li>
+        <li>Gifting Options</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 AANGAN | Crafted with elegance
+  </footer>
 </body>
 </html>
